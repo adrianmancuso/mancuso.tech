@@ -1,0 +1,53 @@
+html {	
+	box-sizing: border-box;
+}
+
+
+body {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+main,
+li {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-size: inherit;
+}
+
+a,
+button {
+	color: inherit;
+	transition: 0.3s;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightsalmon;
+	opacity: 1;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+

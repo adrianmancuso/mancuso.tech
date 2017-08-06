@@ -1,0 +1,118 @@
+body {
+	background: url('../images/ananas.JPG') no-repeat center center fixed;
+	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 100vh;
+}
+
+a, p, h2, h1, h3 {
+	color: #FF73AB;
+	font-family: 'VT323', monospace;
+	font-weight: 100;
+}
+
+aside a, aside p, aside h2 {
+	padding: 0.1em;
+	background-color: #262626;
+	color: #48B5CC;
+	font-size: 3.5em;
+	line-height: 1em;
+	display: inline-block;
+}
+
+aside p:hover {
+	cursor: pointer;
+	color: lightsalmon;
+}
+
+h1:hover{
+	cursor: pointer;
+	color: lightsalmon;
+}
+
+aside {
+	padding-left: 2em;
+	width: 40%;
+	opacity: 0.9;
+}
+
+main {
+	background-color: #262626;
+	width: 60%;
+	margin: 0 auto;
+	opacity: 0.98;
+	padding: 0.5em;
+	font-size: 3em;
+}
+
+
+.project-card h3 {
+ border-bottom: 0.02px solid #48B5CC;	
+}
+
+
+.project-card a, h3{
+	color: white;
+  display: inline;
+}
+
+.project-card p, a {
+	font-size: 0.6em;
+}
+
+.hidden {
+display: none;
+}
+
+.close {
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 5em;
+	display: block;
+	position: fixed;
+	top: 1em;
+	left: 1em; 
+	font-weight: 200;
+	background-color: #262626;
+	padding: 0.08em;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    body {
+    	justify-content: center;
+   }
+
+   aside{
+   	width: 100%;
+   }
+
+   h1 {
+   	margin: 0 auto;
+   	top: 0;
+   	left: 0;
+   	font-size: 10em;
+   }
+
+   main p {
+   	font-size: 1.5em;
+ 		word-wrap: break-word;
+
+   }
+
+   main {
+   	width: 90%;
+ 		word-wrap: break-word;
+    }
+
+   aside p, aside a, aside h2 {
+   	font-size: 7em;
+   }
+}
