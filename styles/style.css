@@ -85,7 +85,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 768px) {
     body {
     	justify-content: center;
    }
@@ -98,7 +98,7 @@ h1 {
    	margin: 0 auto;
    	top: 0;
    	left: 0;
-   	font-size: 10em;
+   	font-size: 8em;
    }
 
    main p {
@@ -113,6 +113,6 @@ h1 {
     }
 
    aside p, aside a, aside h2 {
-   	font-size: 7em;
+   	font-size: 5em;
    }
 }
