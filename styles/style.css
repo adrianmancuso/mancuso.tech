@@ -84,8 +84,12 @@ h1 {
 	padding: 0.08em;
 }
 
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-device-width: 780px) {
     body {
     	justify-content: center;
    }
@@ -98,21 +102,23 @@ h1 {
    	margin: 0 auto;
    	top: 0;
    	left: 0;
-   	font-size: 8em;
+   	font-size: 4rem;
    }
 
-   main p {
-   	font-size: 1.5em;
- 		word-wrap: break-word;
+   main p, main a {
+   	font-size: 1.5rem;
+    word-wrap: break-word;
 
    }
 
    main {
-   	width: 90%;
+    width:85%;
+    height: 80%;
+    overflow: scroll;
+    margin-top: 3.7rem;
  		word-wrap: break-word;
     }
 
    aside p, aside a, aside h2 {
-   	font-size: 5em;
+   	font-size: 2.5rem;
    }
-}
